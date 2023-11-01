@@ -1,0 +1,351 @@
+body {
+  font-family: "Inter", sans-serif;
+  width: 100%;
+}
+.headcontainer {
+  display: flex;
+  background: #f5f5f5;
+  width: 100%;
+  height: 30px;
+  padding-bottom: 5px;
+}
+.socialmedia {
+  flex: 1;
+  text-align: left;
+  margin-top: -10px;
+  font-size: x-small;
+}
+.contact {
+  flex: 1;
+  text-align: right;
+  padding-right: 20px;
+  font-size: x-small;
+  margin-top: -10px;
+}
+.navbar {
+  padding-left: 100px;
+  display: flex;
+  height: 50px;
+  width: 100%;
+  font-size: small;
+}
+.navleft {
+  flex: 1;
+  margin-top: 10px;
+
+  text-align: left;
+  margin-left: -50px;
+}
+.navright {
+  flex: 1;
+  margin-top: 10px;
+
+  text-align: left;
+  margin-left: -700px;
+  padding-top: 25px;
+  /* text-align: right; */
+}
+.navright a {
+  padding-right: 30px;
+  text-decoration: none;
+  color: black;
+}
+.lovecare {
+  width: 100%;
+  position: relative;
+  margin-top: -30px;
+}
+.lovecare h1 {
+  font-size: xx-large;
+  margin-left: 200px;
+  margin-top: 200px;
+  margin-bottom: 60px;
+  position: absolute;
+}
+.lovecare p {
+  margin-left: 200px;
+  margin-top: 300px;
+  position: absolute;
+}
+.lovecare img {
+  margin-top: 70px;
+  margin-left: 10%;
+}
+#book button {
+  position: absolute;
+  /* margin-right: 700px; */
+  margin-top: -200px;
+  margin-left: 200px;
+  background-color: #17c1a3;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.talk img {
+  position: absolute;
+  margin-left: 415px;
+  margin-top: -190px;
+}
+.talk a {
+  position: absolute;
+  margin-left: 450px;
+  margin-top: -185px;
+}
+.second-container button {
+  background-color: #17c1a3;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 205px;
+  height: 34px;
+}
+.appointment {
+  background-color: white;
+  position: absolute;
+  margin-left: 300px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  margin-top: -100px;
+  border-style: none;
+  border-radius: 7px;
+}
+.first-container {
+  margin-bottom: 12px;
+}
+.first-container input {
+  width: 200px;
+  height: 30px;
+  margin-right: 5px;
+}
+.second-container input {
+  width: 200px;
+  height: 30px;
+  /* padding-right: 10px; */
+  margin-right: 5px;
+
+}
+.departments{
+    margin-top: 70px;
+}
+.deptinfo{
+    display: flex;
+    
+}
+.hept-container{
+    flex: 1;
+    margin-right: 15px;
+}
+.hept-container img{
+    width: 400px;
+    height: 250px;
+}
+.hept-container p{
+    font-size: small;
+    margin-top: -10px;
+}
+.hept-container a{
+    color: #17c1a3;
+    font-size: small;
+    margin-top: -70px;
+}
+.onco-container img{
+    width: 400px;
+    height: 250px;
+}
+.ent-container img{
+    width: 400px;
+    height: 250px;
+}
+
+.onco-container{
+    flex: 1;
+    margin-right: 15px;
+    
+    /* width: 100px;
+    height: 100px; */
+}
+.onco-container p{
+    font-size: small;
+    margin-top: -10px;
+}
+.onco-container a{
+    color: #17c1a3;
+    font-size: small;
+    margin-top: -70px;
+}
+.ent_container{
+    flex: 1;
+    margin-right: 15px;
+    /* width: 100px;
+    height: 100px; */
+}
+.ent-container p{
+    font-size: small;
+    margin-top: -10px;
+}
+.ent-container a{
+    color: #17c1a3;
+    font-size: small;
+    margin-top: -70px;
+}
+ul { 
+    list-style-image: url("tick2.jpg");
+    background-size: 5px; /* Adjust the value as needed */
+}
+li{
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+.whygg{
+    position: relative;
+    display: flex;
+    background-color:#E8F9F6 ;
+    height: 350px;
+    width: 80%;
+    margin-left: 125px;
+    margin-top: 60px;
+    overflow: hidden;
+}
+.whyggimage{
+    flex: 1;
+}
+.whyggimage img{
+    object-fit: contain;
+    position: absolute;
+    margin-block-end: auto;
+}
+.whyggcontent{
+    margin-top: 30px;
+    font-size: small;
+    flex: 1;
+}
+.bg2{
+    padding-top: 10px;
+}
+.specinfo{
+    display: flex;
+}
+.lisha{
+    flex: 1;
+    text-align: center;
+}
+.lisha h4{
+margin-top: 10px;
+}
+.lisha p{
+    font-size: x-small;
+    margin-top: -13px;
+    color: #7d7c7c;
+}
+.chris{
+    flex: 1;
+    text-align: center;
+
+}
+.chris h4{
+    margin-top: 10px;
+
+}
+.chris p{
+    font-size: x-small;
+    margin-top: -13px;
+    color: #7d7c7c;
+}
+
+.linda{
+    flex: 1;
+    text-align: center;
+
+}
+.linda h4{
+    margin-top: 10px;
+
+}
+.linda p{
+    font-size: x-small;
+    margin-top: -13px;
+    color: #7d7c7c;
+}
+.sandra{
+    flex: 1;
+    text-align: center;
+
+}
+.sandra h4{
+    margin-top: 10px;
+
+}
+.sandra p{
+    font-size: x-small;
+    margin-top: -13px;
+    color: #7d7c7c;
+}
+.specialist{
+    width: 80%;
+    margin-left: 125px;
+    margin-top: 150px;
+}
+.specheader{
+    text-align: center;
+}
+.specheader p{
+    font-size: x-small;
+    margin-top: -13px;
+    color: #7d7c7c;
+}
+.specinfo{
+    margin-top: 25px;
+}
+.specviewall{
+    text-align: center;
+    margin-top: 10px;
+}
+.specviewall button{
+    background-color: #17c1a3;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  height: 35px;
+  width: 100px;
+  font-size: x-small;
+}
+.facilities{
+    width: 80%;
+    margin-left: 80px;
+    margin-top: 150px;
+}
+.facilitieshead{
+    /* margin-left: 100px; */
+text-align: center;
+margin-left: 70px;
+}
+.facilitiesimage {
+display: flex;
+/* margin-left: 100px; */
+}
+.beds{
+    flex: 1;
+    margin-right: 30px;
+}
+.reception{
+    flex: 1;
+    margin-right: 30px;
+
+}
+.icu{
+    flex: 1;
+}
