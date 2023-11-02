@@ -2,7 +2,7 @@ body {
   font-family: "Inter", sans-serif;
   width: 100%;
 }
-.headcontainer {
+.main-container {
   display: flex;
   background: #f5f5f5;
   width: 100%;
@@ -15,15 +15,41 @@ body {
   margin-top: -10px;
   font-size: x-small;
 }
+.socialmedia p{
+    margin-top: 30px;
+}
+.socialimage{
+margin-left: 90px;
+margin-top: -24px;
+}
 .contact {
   flex: 1;
-  text-align: right;
+  display: flex;
   padding-right: 20px;
   font-size: x-small;
   margin-top: -10px;
 }
+.divide1{
+    flex: 1;
+    margin-top: 20px;
+}
+.divide1 p{
+    margin-top: -16px;
+    margin-left: 25px;
+}
+.divide2{
+    flex: 1;
+    margin-top: 20px;
+    margin-left: -60px;
+}
+.divide2 p{
+    margin-top: -18px;
+    margin-left: 28px;
+}
+
+
 .navbar {
-  padding-left: 100px;
+  margin-left: 100px;
   display: flex;
   height: 50px;
   width: 100%;
@@ -32,21 +58,16 @@ body {
 .navleft {
   flex: 1;
   margin-top: 10px;
-
-  text-align: left;
   margin-left: -50px;
 }
 .navright {
   flex: 1;
   margin-top: 10px;
-
-  text-align: left;
   margin-left: -700px;
   padding-top: 25px;
-  /* text-align: right; */
 }
 .navright a {
-  padding-right: 30px;
+  margin-left: 20px;
   text-decoration: none;
   color: black;
 }
@@ -73,7 +94,6 @@ body {
 }
 #book button {
   position: absolute;
-  /* margin-right: 700px; */
   margin-top: -200px;
   margin-left: 200px;
   background-color: #17c1a3;
@@ -95,6 +115,7 @@ body {
   position: absolute;
   margin-left: 450px;
   margin-top: -185px;
+  font-size: small;
 }
 .second-container button {
   background-color: #17c1a3;
@@ -118,6 +139,7 @@ body {
   margin-top: -100px;
   border-style: none;
   border-radius: 7px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .first-container {
   margin-bottom: 12px;
@@ -130,24 +152,28 @@ body {
 .second-container input {
   width: 200px;
   height: 30px;
-  /* padding-right: 10px; */
   margin-right: 5px;
 
 }
 .departments{
-    margin-top: 70px;
+    margin-top: 150px;
 }
 .deptinfo{
     display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
     
+}
+.headdept{
+    margin-left: 50px;
 }
 .hept-container{
     flex: 1;
     margin-right: 15px;
 }
 .hept-container img{
-    width: 400px;
-    height: 250px;
+    width: 370px;
+    height: 230px;
 }
 .hept-container p{
     font-size: small;
@@ -159,12 +185,12 @@ body {
     margin-top: -70px;
 }
 .onco-container img{
-    width: 400px;
-    height: 250px;
+    width: 370px;
+    height: 230px;
 }
 .ent-container img{
-    width: 400px;
-    height: 250px;
+    width: 370px;
+    height: 230px;
 }
 
 .onco-container{
@@ -199,7 +225,7 @@ body {
     margin-top: -70px;
 }
 ul { 
-    list-style-image: url("tick2.jpg");
+    list-style-image: url("/images/tick2.jpg");
     background-size: 5px; /* Adjust the value as needed */
 }
 li{
@@ -213,7 +239,7 @@ li{
     height: 350px;
     width: 80%;
     margin-left: 125px;
-    margin-top: 60px;
+    margin-top: 150px;
     overflow: hidden;
 }
 .whyggimage{
@@ -348,4 +374,219 @@ display: flex;
 }
 .icu{
     flex: 1;
+}
+.interest{
+    width: 80%;
+    margin-left: 80px;
+    margin-top: 150px;
+}
+.interesthead{
+    text-align: center;
+    margin-left: 100px;
+}
+.interestinfo{
+    display: flex;
+}
+.interest1{
+    flex: 1;
+    margin-right: 30px;
+}
+.interest2{
+    flex: 1;
+    margin-right: 30px;
+
+}
+.interest3{
+    flex: 1;
+}
+.interest1 p{
+    font-size: small;
+    margin-top: -10px;
+}
+.interest2 p{
+    font-size: small;
+    margin-top: -10px;
+}
+.interest3 p{
+    font-size: small;
+    margin-top: -10px;
+}
+.subscribe{
+    position: relative;
+    background-color: #EAF2FF;
+    width: 100%;
+    height: 600px;
+    margin-top: -250px;
+}
+.subscribebox{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 1000px;
+    height:170px;
+    margin-top: 350px;
+    margin-left: 140px;
+    display: flex;
+}
+.textsubscribe{
+    flex: 1;
+}
+.formsubscribe{
+    flex: 1;
+    margin-left: 100px;
+    margin-top: 75px;
+}
+.textsubscribe img{
+        position: relative;
+        margin-top: 2px;
+
+}
+.textsubscribe h4{
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 80px;
+}
+.above{
+    position: relative;
+    z-index: 1;
+}
+.formsubscribe input{
+    border: none;
+  
+}
+.formsubscribe button{
+    margin-left: 50px;
+    background-color: #17c1a3;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    height: 30px;
+    width: 78px;
+    font-size: x-small;
+}
+.formsubscribe hr{
+    margin-right: 80px;
+    margin-top: 3px;
+}
+.upper{
+display: flex;
+}
+.logo{
+    margin-left: 150px;
+    margin-top: 50px;
+    flex:auto;
+    font-size: xx-small;
+}
+.logo p{
+    line-height: 18px;
+}
+
+.aboutgg{
+    margin-top: 55px;
+    flex: auto;
+    font-size: xx-small;
+    
+}
+.aboutgghead{
+    margin-left: -60px;
+}
+.aboutggcontent{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+.aboutggcontent p{
+    margin-top: 10px;
+    margin-left: -60px;
+}
+.aboutgg a{
+    text-decoration: none;
+    color: black;
+}
+.legal{
+    margin-top: 55px;
+    flex: auto;
+    font-size: xx-small;
+    
+}
+.legalhead{
+    margin-left: -60px;
+}
+.legalcontent{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+.legalcontent p{
+    margin-top: 10px;
+    margin-left: -60px;
+}
+.legal a{
+    text-decoration: none;
+    color: black;
+}
+.lower{
+    font-size: xx-small;
+    display: flex;
+}
+.address{
+    flex: auto;
+}
+.address img{
+    width: 11px;
+    height: auto;
+}
+.phone{
+    flex: auto;
+    margin-left: -80px;
+}
+.phone img{
+    width: 11px;
+    height: auto;
+}
+.email{
+    flex: auto;
+    margin-left: -90px;
+}
+.email img{
+    width: 11px;
+    height: auto;
+}
+.socialmedia{
+    flex: auto;
+    font-size: small;
+    margin-top: -20px;
+}
+.socialmedia img{
+    width: 20px;
+    height: auto;
+    margin-top: -10px;
+}
+.lower{
+    margin-top: 20px;
+    margin-left: 150px;
+
+}
+.address p{
+    margin-left: 15px;
+    margin-top: -13px;
+}
+.phone p{
+    margin-left: 15px;
+    margin-top: -13px;
+}
+.email p{
+    margin-left: 15px;
+    margin-top: -13px;
+}
+footer{
+    text-align: center;
+    font-size: xx-small;
+    margin-top: 30px;
+    color: #7d7c7c;
+}
+.main-body-container{
+    width: 100%;
 }
